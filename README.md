@@ -23,11 +23,12 @@ The shell supports external commands (e.g., `ls -la /tmp`) via child processes a
 ## Build & Run Instructions
 
 ### Compile the Shell
-From the root project directory:
+From the project root directory:
 ```
+cd msh
 make
 ```
-
+---
 ### Run in Interactive Mode
 Launch the shell and type commands directly:
 ```
@@ -39,7 +40,7 @@ msh> ls -la
 msh> cd /tmp
 msh> exit
 ```
-
+---
 ### Run in Batch Mode
 Provide a file containing shell commands:
 ```

@@ -44,6 +44,22 @@ msh> exit
 Provide a file containing shell commands:
 ```
 ./msh test.txt
+### Run in Interactive Mode
+Launch the shell and type commands directly:
+```
+./msh
+```
+Example:
+```
+msh> ls -la
+msh> cd /tmp
+msh> exit
+```
+
+### Run in Batch Mode
+Provide a file containing shell commands:
+```
+./msh test.txt
 ```
 
 

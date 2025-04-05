@@ -55,12 +55,4 @@ exit
 ```
 
 The shell will execute the commands in sequence, with no prompt displayed.
----
-## Supported Features
 
-- Execution of external commands via `fork()` and `execvp()`
-- Built-in commands:
-  - `exit` – Terminates the shell (no arguments allowed)
-  - `cd <directory>` – Changes the working directory (exactly one argument required)
-- Argument parsing and basic error handling
-- Dual operation modes: interactive and batch
